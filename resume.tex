@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+
+% helpful packages
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+
+% global formatting tweaks
+\pagestyle{empty}
+\geometry{margin=0.5in}
+\setlength\parindent{9pt}
+\setlist{nosep}
+\renewcommand\labelitemi{--}
+
+% new commands!
+\newcommand{\name}[1]{\begin{center}\section*{\huge #1}\end{center}}
+\newcommand{\topinfo}[1]{\begin{center}\vspace{-0.2cm}#1\vspace{-0.2cm}\end{center}}
+\newcommand{\resumesection}[1]{\vspace{-0.2cm}\section*{#1}\vspace{-0.2cm}\hrule\vspace{0.2cm}}
+
+
+
+\begin{document}
+
+\name{Adam Jean-Laurent}
+\topinfo{github.com/adamjeanlaurent}
+\topinfo{linkedin.com/in/adam-jean-laurent}
+\topinfo{adamjeanlaurent@gmail.com}
+\topinfo{401-474-7862}
+
+\resumesection{Education}
+
+\textbf{University Of Rhode Island}, Kingston, RI \hfill May 2021 (Expected)
+\begin{itemize}
+	\item Bachelor of Arts (BA) in Computer Science, 3.43/4.0 GPA.
+	\item Coursework includes Data Structures \& Algorithms, Object-Oriented Programming, Math Tools For Computing, Software Engineering, Web Design, Calculus, and Fundamentals Of Programming Languages. 
+\end{itemize}
+
+\resumesection{Experience}
+
+\textbf{Microsoft}, New Technologist Intern \hfill June 2019--Present
+\begin{itemize}
+	\item Built an iOS application on a team using agile and scrum fundamentals.
+	\item Meet daily with Microsoft engineers and program managers for coaching and training.
+\end{itemize}
+
+\textbf{University Of Rhode Island}, IT Consultant \hfill September 2018--Present
+\begin{itemize}
+	\item Provide professional computing services to URI community such as troubleshooting, reformatting, Ethernet port-teching, and other software/hardware issues.
+	\item Use verbal communication over the phone, and written communication when writing trouble tickets and emails.
+\end{itemize}
+
+\resumesection{Projects}
+
+\textbf{YouTube Sync}, https://github.com/adamjeanlaurent/YouTube-Sync  \hfill June 2019
+\begin{itemize}
+	\item Built web application that allows users to synchronize their YouTube video even when pausing, playing, and skipping.
+	\item Implemented websockets on to express web server using socket.io, and used the YouTube iFrame Player API.
+	\item Used HTML/CSS, JavaScript, Node.js, Bootstrap, and Git.
+\end{itemize}
+
+\textbf{Pomodoro Study}, https://github.com/adamjeanlaurent/Pomodoro-Study \hfill May 2019
+\begin{itemize}
+	\item Built a CRUD web application to help users practice the Pomodoro study technique.
+	\item  Built backend authorization system that allowed users to register/login, have cookies/sessions.
+	\item Used CanvasJS to display user study data visually.
+	\item Used HTML/CSS, JavaScript, Node.js, MongoDB, and Git.
+\end{itemize}
+
+\resumesection{Skills}
+
+\textbf{Programming Languages}
+\begin{itemize}
+	\item JavaScript, HTML, CSS, C, C++, Swift, Python, MySQL, MongoDB
+\end{itemize}
+
+\textbf{Frameworks}
+\begin{itemize}
+	\item jQuery, Node,js, Express.js, Bootstrap.
+\end{itemize}
+
+\textbf{Tools}
+\begin{itemize}
+	\item Visual Studio, APIs, Bash, Git.
+\end{itemize}
+
+\resumesection{Activities}
+
+\textbf{Academic Excellence Chair}, National Society Of Black Engineers \hfill April 2019 - Present
+\begin{itemize}
+	\item Promote attendance and participation in NSBE meeting and activities.
+	\item Organize tutoring, and refer members to academic and career counseling.
+	\item Plan professional development and hands on workshop events.
+\end{itemize}
+
+\textbf{Telecommunications Committee}, National Society Of Black Engineers \hfill April 2019--Present
+\begin{itemize}
+	\item Work on a small team to design and build URI NSBE's website.
+	\item Using HTML, CSS, JavaScript, Bootstrap and Git.
+\end{itemize}
+
+\end{document}
